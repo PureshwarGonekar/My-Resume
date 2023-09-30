@@ -219,17 +219,17 @@ section:target{
 
 .eighty-five-percent {
     height: inherit;
-    width: 85%;
+    width: 95%;
 }
 
 .eighty-percent {
     height: inherit;
-    width: 80%;
+    width: 89%;
 }
 
 .fifty-percent {
     height: inherit;
-    width: 50%;
+    width: 90%;
 }
 
 
@@ -245,7 +245,7 @@ section:target{
 }
 
 .portfolio-image-container {
-    max-width: 300px;
+    max-width: 600px;
     overflow: hidden;
     margin: 10px;
     background-size: cover;
@@ -253,6 +253,7 @@ section:target{
     position: relative;
     /* display: flex;
     flex-wrap: nowrap; */
+    border-radius: 5px;
 }
 
 .portfolio-image-container img {
@@ -270,23 +271,29 @@ section:target{
     text-align: center;
     padding: 10px;
 }
-.portfolio-details a h1{
-    color: transparent;
+.portfolio-details a {
+    display: none;
 }
 
 
 .portfolio-image-container:hover {
-    box-shadow: 0 0 20px #74ADC8;
+    box-shadow: 0 0 20px #052b3d;
 }
 
 .portfolio-image-container:hover .portfolio-details {
-    background-color: #0f0e0e78;
+    background-color: #15033dcf;
     color: white;
 }
 
-.portfolio-image-container:hover .portfolio-details a h1 {
+.portfolio-image-container:hover .portfolio-details a{
+    display: inline;
     color: white;
 }
+
+.portfolio-image-container:hover .portfolio-details a h1:hover{
+    color: rgb(215, 215, 215);
+}
+
 
 /* -----------timeline------- */
 .timeline {
