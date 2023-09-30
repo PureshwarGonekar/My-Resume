@@ -28,8 +28,6 @@ In this online resume portfolio, I have leveraged the power of HTML and CSS to c
 <img src="ss/3.png">
 <img src="ss/4.png">
 <img src="ss/5.png">
-<img src="ss/6.png">
-
 <br>
 
 ***By creating this resume portfolio using HTML and CSS, I have crafted a powerful tool to present my qualifications, skills, and achievements to potential employers or clients. This online presence showcases my professionalism, attention to detail, and dedication to my craft.***
